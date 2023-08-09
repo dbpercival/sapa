@@ -102,7 +102,7 @@ SEXP R_sapa_dpss(SEXP nsample, SEXP ntaper, SEXP bandwidth)
     ISPLIT,
     WORK1,
     IWORK1,
-    &INFO);
+    &INFO FCONE FCONE);
   //  if (INFO != 0)
   //  error(_("error code %d from LAPACK routine '%s'"), info, "dstebz");
 
